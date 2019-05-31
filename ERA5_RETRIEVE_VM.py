@@ -17,14 +17,14 @@ def getData():
     c = cdsapi.Client()
 
     # define paths for nc files on VM
-    p_10u = '/data/private/wemc/10WS/10WS_nc/10U'
-    p_10v = '/data/private/wemc/10WS/10WS_nc/10V'
-    p_100u = '/data/private/wemc/100WS/100WS_nc/100U'
-    p_100v = '/data/private/wemc/100WS/100WS_nc/100V'
-    p_ghi = '/data/private/wemc/GHI/GHI_nc'
-    p_msl = '/data/private/wemc/MSL/MSL_nc'
-    p_ta = '/data/private/wemc/TA/TA_nc'
-    p_tp = '/data/private/wemc/TP/TP_nc'
+    p_10u = ''
+    p_10v = ''
+    p_100u = ''
+    p_100v = ''
+    p_ghi = ''
+    p_msl = ''
+    p_ta = ''
+    p_tp = ''
 
     # set years & months
     years = ['1979','1980','1981','1982','1983','1984',
